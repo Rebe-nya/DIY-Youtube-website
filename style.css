@@ -3,14 +3,10 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     margin: 0;
-    display: flex;
 }
 
 #top_grid {
     grid-template-columns: repeat(3, 1fr);
-    background-color: rgb(31, 30, 30);
-    width: 100%;
-    height: auto;
     display: grid;
     justify-content: space-between;
     align-items: center;
@@ -30,10 +26,10 @@ body {
 #logo {
     transition: color 0.4s ease-in;
     max-width: fit-content;
-    font-size: 50px;
+    font-size: 35px;
     background-color: red;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
     font-weight: bold;
     transition: color 0.5s ease;
     grid-column: 1;
@@ -81,6 +77,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 25px;
+    overflow: hidden;
 }
 
 #navbar ul {
