@@ -5,10 +5,12 @@ body {
     margin: 0;
 }
 
-#top_grid {
-    grid-template-columns: repeat(3, 1fr);
+.grid {
     display: grid;
     justify-content: space-between;
+}
+#top_grid {
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
 }
 
@@ -103,3 +105,11 @@ body {
     color: black;
 }
 
+#left-panel {
+    background-color: rgb(31, 30, 30);
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
