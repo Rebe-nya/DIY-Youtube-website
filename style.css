@@ -9,7 +9,7 @@ body {
     display: grid;
     justify-content: space-between;
 }
-#top_grid {
+#top-grid {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
 }
@@ -103,6 +103,10 @@ body {
     background-color: hsl(0, 0%, 35%);
     transition: background-color 0.5s ease-in;
     color: black;
+}
+
+#bottom-videos-grid {
+    grid-template-columns: repeat(2, 1fr);
 }
 
 #left-panel {
