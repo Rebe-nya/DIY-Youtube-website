@@ -13,10 +13,6 @@ body {
     text-decoration: none;
 }
 
-#top {
-    position: fixed;
-}
-
 #top-grid {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -33,6 +29,13 @@ body {
     padding: 10px;
     transition: color 0.4s ease-in;
     transition: color 0.5s ease;
+    position: relative;
+}
+
+#logo-position {
+    max-width: fit-content;
+    margin: 10px;
+    grid-column: 1;
 }
 
 #logo:hover {
@@ -40,10 +43,19 @@ body {
 transition: color 0.5s ease;
 }
 
-#left-panel {
+#panel-navbar-videos {
+    display: flex;
+}
+
+#panel {
     background-color: rgb(31, 30, 30);
     width: 250px;
-    height: 100vh;
+    height: 50vh;
+    display: flex;
+    margin-right: 3vh;
+}
+
+#navbar-videos {
     display: inline-block;
     vertical-align: top;
 }
@@ -59,11 +71,7 @@ transition: color 0.5s ease;
 
 #grid-videos {
     grid-template-columns: repeat(5, 1fr);
-    margin-inline: 40px;
+    margin-top: 15px;
+    margin-inline-end: 40px;
 }
     
-#logo-position {
-    max-width: fit-content;
-    margin: 10px;
-    grid-column: 1;
-}

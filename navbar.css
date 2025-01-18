@@ -1,8 +1,6 @@
 #div-navbar {
     margin-block: 15px;
     background-color: rgb(22, 22, 22);
-    display: inline-block;
-    vertical-align: top;
 }
 
 #navbar a {
@@ -13,7 +11,7 @@
     padding: 15px;
     transition: background-color 0.5s ease-in;
     text-decoration: none;
-    margin-inline: 25px;
+    margin-inline-end: 10px;
     font-weight: bold;
 }
 
