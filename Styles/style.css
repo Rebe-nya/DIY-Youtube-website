@@ -20,6 +20,12 @@ body {
 }
 
 #logo {
+    max-width: fit-content;
+    margin: 10px;
+    grid-column: 1;
+}
+
+#logo-text {
     color: white;
     text-decoration: none;
     font-size: 35px;
@@ -32,15 +38,9 @@ body {
     position: relative;
 }
 
-#logo-position {
-    max-width: fit-content;
-    margin: 10px;
-    grid-column: 1;
-}
-
 #logo:hover {
     color: black;
-transition: color 0.5s ease;
+    transition: color 0.5s ease;
 }
 
 #panel-navbar-videos {
@@ -49,29 +49,12 @@ transition: color 0.5s ease;
 
 #panel {
     background-color: rgb(31, 30, 30);
-    width: 250px;
+    width: 60px;
     height: 50vh;
-    display: flex;
     margin-right: 3vh;
-}
-
-#navbar-videos {
-    display: inline-block;
-    vertical-align: top;
 }
 
 #bottom-grid {
     display: inline-block;
     vertical-align: top;
 }
-
-#bottom-videos-grid {
-    display: flex;
-}
-
-#grid-videos {
-    grid-template-columns: repeat(5, 1fr);
-    margin-top: 15px;
-    margin-inline-end: 40px;
-}
-    

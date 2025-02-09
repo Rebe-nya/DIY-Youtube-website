@@ -1,0 +1,25 @@
+.video {
+    justify-self: center;
+}
+
+.video-text {
+    width: 320px;
+}
+
+#grid-videos {
+    grid-template-columns: repeat(5, 330px);
+    margin-top: 15px;
+    margin-inline-end: 40px;
+}
+
+video {
+    width: 320px;
+    border-radius: 10px;
+}
+
+iframe {
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+}
+

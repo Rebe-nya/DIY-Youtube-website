@@ -1,6 +1,12 @@
 #div-navbar {
     margin-block: 15px;
+    margin-left: 5px;
     background-color: rgb(22, 22, 22);
+}
+
+#navbar-videos {
+    display: inline-block;
+    vertical-align: top;
 }
 
 #navbar a {
