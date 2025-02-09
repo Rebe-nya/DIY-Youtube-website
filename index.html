@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="video.css">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="search-bar.css">
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/icons.css">
+    <link rel="stylesheet" href="Styles/search-bar.css">
+    <link rel="stylesheet" href="Styles/navbar.css">
+    <link rel="stylesheet" href="Styles/video.css">
 </head>
 <body>
     <div id="top-grid" class="grid">
-        <div id="logo-position">
+        <div id="logo">
             <a href="https://www.youtube.com/" class="text-decoration-none">
-                <div id="logo">Youtube</div>
+                <div id="logo-text">YouTube</div>
             </a>
         </div>
         <div id="search-bar">
@@ -22,7 +23,15 @@
         </div>
     </div>
     <div id="panel-navbar-videos">
-        <div id="panel"></div>
+        <div id="panel">
+            <div>
+                <img src="icons/Home.png" class="icons">
+                <div>Domů</div>
+            </div>
+            <div>Shorts</div>
+            <div>Odběry</div>
+            <div>Vy</div>
+        </div>
         <div id="navbar-videos">
             <div id="div-navbar">
                 <nav id="navbar">
@@ -35,17 +44,25 @@
                 <div id="botom-grid">
                     <div id="bottom-videos-grid" class="grid">
                         <div id="grid-videos" class="grid">
-                            <video controls>
-                                <source src="videos/𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺💣 cs2 edit/𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺💣 cs2 edit.mp4" type="video/mp4">
-                            </video>
-                            <video controls>
-                                <source src="videos/𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺💣 cs2 edit/𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺💣 cs2 edit.mp4" type="video/mp4">
-                            </video>
+                            <div class="video">
+                                <video controls>
+                                    <source src="videos/𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺💣 cs2 edit/𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺💣 cs2 edit.mp4" type="video/mp4">
+                                </video>
+                                <div class="video-text">𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺💣 cs2 edit</div>
+                            </div>
+                            <div class="video">
+                                <iframe src="https://www.youtube.com/embed/g6ge0BEPc7A?si=63UK7RxV30TU9FW_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <div class="video-text">𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺, 𝗯𝗼𝗼𝗺💣 cs2 edit</div>
+                            </div>
+                            <div class="video">
+                                <iframe src="https://www.youtube.com/embed/WpmlTGEdqLs?si=ZR65mLcMdqtMyWtu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <div class="video-text">💥MONTAGEM MELODIA EXPLOSIVA BY TOMITO💥</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
     </div>
 </body>
 </html>
